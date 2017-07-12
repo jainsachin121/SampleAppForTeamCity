@@ -1,0 +1,27 @@
+<div>
+  <h3>current state name: <var>{{$state.current.name}}</var></h3>
+  
+  <div class="float">
+    <b>Public</b>
+    <ul>
+      <li ng-repeat="path in ['home', 'public','login']" >
+        <a href="#/{{path}}">#/{{path}}</a>
+      </li>
+    </ul>
+  </div>
+  
+ 
+  <div class="float">
+    <div ng-if="$state.current.name === 'login' " >
+      <b>Check to log in/off</b>  
+      <br /> 
+      Is Authenticated:
+      <input ng-model="user.isAuthenticated" type="checkbox" />
+    </div> 
+  </div>
+  
+  
+  <h5>state</h5>
+  <pre>{{$state.current | json}}</pre>
+  
+</div>

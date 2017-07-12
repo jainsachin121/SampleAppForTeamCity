@@ -1,0 +1,14 @@
+/* Styles go here */
+
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+
+.float {
+  float: left; min-width: 81px;
+}
+
+h5 { clear: both; }
