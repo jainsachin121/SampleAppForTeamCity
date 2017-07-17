@@ -110,6 +110,11 @@
     <Content Include="Index.html" />
     <Content Include="Scripts\Error\404.html" />
     <Content Include="Scripts\index.html" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Scripts\script.js" />
     <Content Include="Scripts\style.css" />
     <Content Include="Scripts\Test.js" />
@@ -143,6 +148,8 @@
       <DependentUpon>EFTestFile.edmx</DependentUpon>
     </Content>
     <Content Include="Views\Test.cshtml" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
